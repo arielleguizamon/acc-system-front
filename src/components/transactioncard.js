@@ -25,6 +25,7 @@ const TransactionCard = ({ transaction }) => {
             <b>Type: </b>
             {transaction.type}
           </p>
+          <b>Amount: </b>${transaction.amount}
         </TextContainer>
         <Collapsible
           open={open}
@@ -36,9 +37,6 @@ const TransactionCard = ({ transaction }) => {
           expandOnPrint
         >
           <TextContainer>
-            <p>
-              <b>Amount: </b>${transaction.amount}
-            </p>
             <p>
               <b>Date: </b>
               {new Date(transaction.effectiveDate).toLocaleDateString()}
