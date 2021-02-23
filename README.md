@@ -3,7 +3,7 @@ Created with CRA
 Style library used is Polaris (shopify)
 
 # Setup
-In order to run the app just install the packages `npm i` and start the development server `npm start`
+In order to run the app just install the packages `npm i` and start the development server `npm start`<br />
 `build` folder is also shipped so another option is to start a web server inside the `build` folder (you can use `serve -s build` if the package is installed globally)
 
 # Configuration
